@@ -1,11 +1,21 @@
 [
   {
-    "question": "Which is the correct answer?",
+    "question": "Which method is used to remove whitespace from the beginning and end of a string?",
     "answers": [
-      { "text": "Correct", "isCorrect": true },
-      { "text": "Almost", "isCorrect": false },
-      { "text": "Not Quite", "isCorrect": false },
-      { "text": "Not Close", "isCorrect": false }
+      { "text": "strip()", "isCorrect": true },
+      { "text": "trim()", "isCorrect": false },
+      { "text": "clean()", "isCorrect": false },
+      { "text": "remove()", "isCorrect": false }
+    ]
+  },
+
+  {
+    "question": "What is the output of len('hello world')?",
+    "answers": [
+      { "text": "10", "isCorrect": false },
+      { "text": "11", "isCorrect": true },
+      { "text": "12", "isCorrect": false },
+      { "text": "13", "isCorrect": false }
     ]
   }
 ]
